@@ -1,0 +1,12 @@
+{
+  "pluginName": "helloWorld",
+  "description": "我的第一个插件",
+  "main": "index.html",
+  "version": "0.0.1",
+  "features": [
+    {
+      "code": "hello",
+      "cmds": ["hello", "你好"]
+    }
+  ]
+}
