@@ -1,8 +1,8 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "ElectronReact",
+  "name": "yunser-newpc",
+  "productName": "SuperTool",
   "version": "1.0.0",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "description": "aElectron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
   "scripts": {
     "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
     "build-dll": "cross-env NODE_ENV=development webpack --config ./configs/webpack.config.renderer.dev.dll.babel.js --colors",
@@ -57,10 +57,11 @@
   },
   "main": "./app/main.prod.js",
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.develar.ElectronReact",
+    "productName": "SuperTool",
+    "appId": "com.yunser.SuperTool",
     "files": [
       "app/dist/",
+      "apps/",
       "app/app.html",
       "app/main.prod.js",
       "app/main.prod.js.map",
@@ -265,6 +266,7 @@
     "electron-log": "^3.0.4",
     "electron-updater": "^4.0.6",
     "history": "^4.9.0",
+    "nedb": "^1.8.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-hot-loader": "^4.8.2",
@@ -273,7 +275,9 @@
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "source-map-support": "^0.5.11"
+    "request": "^2.88.0",
+    "source-map-support": "^0.5.11",
+    "unzip": "^0.1.11"
   },
   "devEngines": {
     "node": ">=7.x",

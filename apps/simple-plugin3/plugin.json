@@ -1,12 +1,8 @@
 {
-  "pluginName": "文字大写2",
-  "description": "我的第二2个插件",
+  "pluginName": "繁体字",
+  "description": "",
   "main": "index.html",
-  "version": "0.0.1",
-  "features": [
-    {
-      "code": "hello",
-      "cmds": ["hello", "你好"]
-    }
-  ]
+  "type": "iframe",
+  "url": "https://text.yunser.com/chinese?embed=force",
+  "version": "0.0.1"
 }
